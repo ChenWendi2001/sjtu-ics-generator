@@ -2,7 +2,7 @@
 SJTU课程表日历导入脚本
 
 ## 什么是ics？
-`.ics` 可以帮助你快速导入批量事件到系统日历。使用本脚本将对`HTML`进行解析，生成`.ics`文件，帮助你将所有课程添加至你的mac/Win系统日历,可进一步与iPhone等智能设备同步。
+`.ics`可以帮助你快速导入批量事件到系统日历。使用本脚本将对`HTML`进行解析，生成`.ics`文件，帮助你将所有课程添加至你的mac/Win系统日历,可进一步与iPhone等智能设备同步。
 
 ## 如何使用?
 ### Step 0
@@ -16,7 +16,7 @@ SJTU课程表日历导入脚本
 ```
 pip install bs4
 pip install ics
-python ics_generator.py
+python3 ics_generator.py
 ```
 ### Step3
 双击`sjtu.ics`文件即刻导入日历。
