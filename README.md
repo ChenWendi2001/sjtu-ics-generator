@@ -19,4 +19,4 @@ pip3 install ics
 python3 ics_generator.py
 ```
 ### Step3
-双击`sjtu.ics`文件即刻导入日历。
+双击`sjtu.ics`文件即可导入日历。
