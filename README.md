@@ -14,8 +14,8 @@ SJTU课程表日历导入脚本
 ### Step 2
 下载`ics_generator.py`脚本，将其放置在`学生课表查询.html`文件的同一目录中。使用命令行切换至该目录，执行以下三条命令。按照提示即可完成转换。
 ```
-pip install bs4
-pip install ics
+pip3 install bs4
+pip3 install ics
 python3 ics_generator.py
 ```
 ### Step3
