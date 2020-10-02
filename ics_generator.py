@@ -3,6 +3,11 @@ import datetime
 from bs4 import BeautifulSoup
 from ics import Calendar, Event
 
+print('使用须知:')
+print('使用本脚本之前，你需要先将HTML文件名修改为\'学生课表查询.html\'，并且使用编辑器编辑本脚本修改学期开始日期。')
+print('导入时，请务必确认时间正确，以避免不必要的麻烦。')
+print('\n')
+
 ##check your HTML file name to make sure this program can work in a proper way
 with open("学生课表查询.html", "rb") as f:
     html = f.read().decode("utf8")
